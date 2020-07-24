@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PFL Values Test Suite" duration-ms="9243" started-at="2020-07-23T22:14:36 EDT" finished-at="2020-07-23T22:14:46 EDT">
+    <groups>
+    </groups>
+    <test name="Values Test" duration-ms="9243" started-at="2020-07-23T22:14:36 EDT" finished-at="2020-07-23T22:14:46 EDT">
+      <class name="Tests.ValueTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@1810399e]" name="setup" is-config="true" duration-ms="3280" started-at="2020-07-23T22:14:36 EDT" finished-at="2020-07-23T22:14:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAcceptedValuesTest()[pri:0, instance:Tests.ValueTest@1810399e]" name="verifyAcceptedValuesTest" duration-ms="882" started-at="2020-07-23T22:14:40 EDT" finished-at="2020-07-23T22:14:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcceptedValuesTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@1810399e]" name="teardown" is-config="true" duration-ms="97" started-at="2020-07-23T22:14:41 EDT" finished-at="2020-07-23T22:14:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@1810399e]" name="setup" is-config="true" duration-ms="1826" started-at="2020-07-23T22:14:41 EDT" finished-at="2020-07-23T22:14:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyEmptyValuesTest()[pri:0, instance:Tests.ValueTest@1810399e]" name="verifyEmptyValuesTest" duration-ms="273" started-at="2020-07-23T22:14:43 EDT" finished-at="2020-07-23T22:14:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyValuesTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@1810399e]" name="teardown" is-config="true" duration-ms="84" started-at="2020-07-23T22:14:43 EDT" finished-at="2020-07-23T22:14:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@1810399e]" name="setup" is-config="true" duration-ms="1858" started-at="2020-07-23T22:14:43 EDT" finished-at="2020-07-23T22:14:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyFailingValuesTest()[pri:0, instance:Tests.ValueTest@1810399e]" name="verifyFailingValuesTest" duration-ms="821" started-at="2020-07-23T22:14:45 EDT" finished-at="2020-07-23T22:14:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailingValuesTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@1810399e]" name="teardown" is-config="true" duration-ms="86" started-at="2020-07-23T22:14:46 EDT" finished-at="2020-07-23T22:14:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.ValueTest -->
+    </test> <!-- Values Test -->
+  </suite> <!-- PFL Values Test Suite -->
+</testng-results>
