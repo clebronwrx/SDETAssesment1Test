@@ -27,6 +27,10 @@ public class ValuesPage extends Base{
 
 	@FindBy(xpath = "//p[2]")
 	private WebElement msg;
+	
+	public String getPageURL() {
+		return driver.getCurrentUrl();
+	}
 
 	public void doPassVals(String values) {
 		searchBox.sendKeys(values);

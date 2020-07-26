@@ -21,6 +21,15 @@ public class ValueTest extends Base {
 		valuepage = PageFactory.initElements(driver, ValuesPage.class);
 
 	}
+	
+	@Test(description = "Test verifies is the test page has been reached")
+	public void verifyPageCanBeReached() {
+		homepage.doClickonFindTab();//navigate to test page
+		String url = valuepage.getPageURL();
+		System.out.println("Current page URL is : " + url);
+		Assert.assertEquals(url, "https://sdetassessment.azurewebsites.net/greeting");
+		
+	}
 
 	@Test(description = "Test verifies that correct values gives 'True' message")
 	public void verifyAcceptedValuesTest() {
