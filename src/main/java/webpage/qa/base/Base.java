@@ -26,10 +26,8 @@ public class Base {
 	public void initialization() {
 
 		WebDriverManager.chromedriver().setup();
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
-		options.addArguments("start-maximized");
-		driver = new ChromeDriver(options);
+		
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
         driver.get("https://sdetassessment.azurewebsites.net");
 		
