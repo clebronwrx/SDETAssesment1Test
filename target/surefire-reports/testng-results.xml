@@ -1,45 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="PFL Values Test Suite" duration-ms="10020" started-at="2020-07-25T15:14:58 EDT" finished-at="2020-07-25T15:15:08 EDT">
+  <suite name="PFL Values Test Suite" duration-ms="12197" started-at="2020-07-26T20:07:40 EDT" finished-at="2020-07-26T20:07:53 EDT">
     <groups>
     </groups>
-    <test name="Values Test" duration-ms="10020" started-at="2020-07-25T15:14:58 EDT" finished-at="2020-07-25T15:15:08 EDT">
+    <test name="Values Test" duration-ms="12197" started-at="2020-07-26T20:07:40 EDT" finished-at="2020-07-26T20:07:53 EDT">
       <class name="Tests.ValueTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@174d20a]" name="setup" is-config="true" duration-ms="4049" started-at="2020-07-25T15:14:58 EDT" finished-at="2020-07-25T15:15:02 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@174d20a]" name="setup" is-config="true" duration-ms="4060" started-at="2020-07-26T20:07:40 EDT" finished-at="2020-07-26T20:07:44 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyAcceptedValuesTest()[pri:0, instance:Tests.ValueTest@174d20a]" name="verifyAcceptedValuesTest" duration-ms="913" started-at="2020-07-25T15:15:02 EDT" description="Test verifies that correct values gives &#039;True&#039; message" finished-at="2020-07-25T15:15:03 EDT">
+        <test-method status="PASS" signature="verifyAcceptedValuesTest()[pri:0, instance:Tests.ValueTest@174d20a]" name="verifyAcceptedValuesTest" duration-ms="862" started-at="2020-07-26T20:07:44 EDT" description="Test verifies that correct values gives &#039;True&#039; message" finished-at="2020-07-26T20:07:45 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcceptedValuesTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@174d20a]" name="teardown" is-config="true" duration-ms="92" started-at="2020-07-25T15:15:03 EDT" finished-at="2020-07-25T15:15:03 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@174d20a]" name="teardown" is-config="true" duration-ms="140" started-at="2020-07-26T20:07:45 EDT" finished-at="2020-07-26T20:07:45 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@174d20a]" name="setup" is-config="true" duration-ms="1810" started-at="2020-07-25T15:15:03 EDT" finished-at="2020-07-25T15:15:05 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@174d20a]" name="setup" is-config="true" duration-ms="2039" started-at="2020-07-26T20:07:45 EDT" finished-at="2020-07-26T20:07:47 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyEmptyValuesTest()[pri:0, instance:Tests.ValueTest@174d20a]" name="verifyEmptyValuesTest" duration-ms="270" started-at="2020-07-25T15:15:05 EDT" description="Test verifies that passing no value gives message to enter a String" finished-at="2020-07-25T15:15:05 EDT">
+        <test-method status="PASS" signature="verifyEmptyValuesTest()[pri:0, instance:Tests.ValueTest@174d20a]" name="verifyEmptyValuesTest" duration-ms="269" started-at="2020-07-26T20:07:47 EDT" description="Test verifies that passing no value gives message to enter a String" finished-at="2020-07-26T20:07:48 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmptyValuesTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@174d20a]" name="teardown" is-config="true" duration-ms="86" started-at="2020-07-25T15:15:05 EDT" finished-at="2020-07-25T15:15:05 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@174d20a]" name="teardown" is-config="true" duration-ms="85" started-at="2020-07-26T20:07:48 EDT" finished-at="2020-07-26T20:07:48 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@174d20a]" name="setup" is-config="true" duration-ms="1860" started-at="2020-07-25T15:15:05 EDT" finished-at="2020-07-25T15:15:07 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@174d20a]" name="setup" is-config="true" duration-ms="1867" started-at="2020-07-26T20:07:48 EDT" finished-at="2020-07-26T20:07:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyFailingValuesTest()[pri:0, instance:Tests.ValueTest@174d20a]" name="verifyFailingValuesTest" duration-ms="818" started-at="2020-07-25T15:15:07 EDT" description="Test verifies that incorrect values gives &#039;False&#039; message" finished-at="2020-07-25T15:15:08 EDT">
+        <test-method status="PASS" signature="verifyFailingValuesTest()[pri:0, instance:Tests.ValueTest@174d20a]" name="verifyFailingValuesTest" duration-ms="810" started-at="2020-07-26T20:07:50 EDT" description="Test verifies that incorrect values gives &#039;False&#039; message" finished-at="2020-07-26T20:07:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFailingValuesTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@174d20a]" name="teardown" is-config="true" duration-ms="89" started-at="2020-07-25T15:15:08 EDT" finished-at="2020-07-25T15:15:08 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@174d20a]" name="teardown" is-config="true" duration-ms="88" started-at="2020-07-26T20:07:50 EDT" finished-at="2020-07-26T20:07:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ValueTest@174d20a]" name="setup" is-config="true" duration-ms="1744" started-at="2020-07-26T20:07:51 EDT" finished-at="2020-07-26T20:07:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyPageCanBeReached()[pri:0, instance:Tests.ValueTest@174d20a]" name="verifyPageCanBeReached" duration-ms="113" started-at="2020-07-26T20:07:52 EDT" description="Test verifies is the test page has been reached" finished-at="2020-07-26T20:07:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageCanBeReached -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.ValueTest@174d20a]" name="teardown" is-config="true" duration-ms="82" started-at="2020-07-26T20:07:52 EDT" finished-at="2020-07-26T20:07:53 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
